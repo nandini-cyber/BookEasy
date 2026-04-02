@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Business Login - BookEasy</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="business-login.css">
+  <link rel="icon" type="image/png" href="favicon.png.png">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo"><a href="index.html" style="text-decoration: none; color: inherit; cursor: pointer;">BookEasy</a></div>
+      <a href="index.html" class="back-to-home">← Back to Home</a>
+    </div>
+  </header>
+
+  <!-- Login Form Section -->
+  <section class="login-section">
+    <div class="login-container">
+      <div class="login-card">
+        <div class="login-header">
+          <div class="briefcase-icon">💼</div>
+          <h1>Business Login</h1>
+          <p>Access your business dashboard</p>
+        </div>
+
+        <form class="login-form">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <div class="input-group">
+              <span class="input-icon">✉️</span>
+              <input type="email" id="email" name="email" placeholder="Enter your business email" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="password">Password</label>
+            <div class="input-group">
+              <span class="input-icon">🔒</span>
+              <input type="password" id="password" name="password" placeholder="Enter your password" required>
+            </div>
+          </div>
+
+          <button type="submit" class="login-button">
+            <a href="dashboard.html" >Sign In </a></button>
+        </form>
+
+        <div class="demo-accounts">
+          <h2>Demo Business Accounts:</h2>
+          <div class="demo-grid">
+            <div class="demo-item">
+              <span class="business-name">The Gourmet Kitchen</span>
+              <span class="business-email">info@gourmetkitchen.com</span>
+            </div>
+            <div class="demo-item">
+              <span class="business-name">Zen Spa Retreat</span>
+              <span class="business-email">info@zenspa.com</span>
+            </div>
+            <div class="demo-item">
+              <span class="business-name">PowerFit Gym</span>
+              <span class="business-email">contact@powerfit.com</span>
+            </div>
+            <div class="demo-item">
+              <span class="business-name">Style Studio Salon</span>
+              <span class="business-email">hello@stylestudio.com</span>
+            </div>
+          </div>
+          <div class="demo-password">
+            <span>Password for all accounts:</span>
+            <code>password123</code>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
